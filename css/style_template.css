@@ -1,0 +1,227 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFE6A9;
+}
+
+/* Nav Styles */
+nav {
+    display: flex;
+    background-color:#B1C29E;
+    padding: 5px;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav p, nav a {}
+
+nav a {
+    color: #37504a;
+}
+
+nav a:hover {}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    background-color:#B1C29E;
+    text-align: center;
+    justify-content: left;
+    padding: 10px;
+    margin: 5px
+}
+
+footer a {
+    margin: 5px;
+    font-family: "Source Sans 3", serif; 
+    color: #37504a;
+}
+
+footer a:hover {}
+
+/* Splash Section */
+.splash {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.splash h1 {
+    font-family: "Quicksand", serif;
+}
+
+.splash img {
+    border: 5px solid #DEAA79;
+    border-radius: 30px;
+}
+
+.splash p {
+    font-family: "Source Sans 3", serif;
+}
+
+/* Horizontal Rules */
+hr {
+    border-top: 2.5px dashed #DEAA79;
+    border-radius: 5px;
+    border-bottom: 2.5px dashed #DEAA79;
+}
+
+/* Sections */
+section {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Section Headings */
+section h2 {
+    font-family: "Quicksand", serif;
+    color: #659287;
+    text-decoration: underline;
+}
+
+/* Paragraph Styles */
+section p {
+    font-family: "Source Sans 3", serif;
+}
+
+/* link styles */
+section a {
+    font-family: "Source Sans 3", serif;
+    color: blueviolet;
+    text-decoration: none;
+}
+section a:hover {
+    color: white;
+}
+
+/* List Styles */
+ul {
+    display: flex;
+    font-family: "Source Sans 3", serif;
+    flex-direction: column;
+    text-align: left;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    /* padding: 10px;
+    align-items: start; */
+    margin: auto;
+    
+}
+dl dt{
+    font-family: "Source Sans 3", serif;
+    
+}
+dl dd{
+    margin: auto;
+    font-family: "Source Sans 3", serif;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5fr 1fr;
+    gap: 30px;
+    margin: 20px;
+    
+}
+
+.card {
+    display: flex;
+    border: 5px solid black;
+    border-radius: 30px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #B1C29E;
+    box-shadow: 5px rgb(60, 106, 95);
+    /* border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease-out; */
+    /* border-radius: 50px; */
+}
+
+.card:hover {
+    box-shadow: 20px 20px 20px rgba(36, 36, 36, 0.5);
+}
+
+.card img {
+    border: 5px solid #659287;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.card h3 {
+    font-family: "Quicksand", serif;
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding: 10px;
+    font-family: "Source Sans 3", serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Source Sans 3", serif;
+    border: #37504a;
+}
+
+form input, form textarea {
+    font-family: "Source Sans 3", serif;
+    border: #37504a;
+}
+
+form input:focus, form textarea:focus {}
+
+form button {
+    background-color:#B1C29E;
+    
+}
+
+form button:hover {}
+
+
+/* Thank You Page */
+.thankies {
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+}
+.thankies h1{
+    font-family: "Quicksand", serif;
+}
+.thankies a {
+    font-family: "Source Sans 3", serif;
+}
+
+
+/* Contact Me */
+.contact {
+
+}
+.contact h1{
+    font-family: "Quicksand", serif;
+}
